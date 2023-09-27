@@ -1,0 +1,35 @@
+.worcks {
+  display: flex;
+  font-family: Inter;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1806px;
+
+  &__top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    color: var(--text);
+    margin-bottom: 118px;
+    .title {
+      font-size: 45px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-bottom: 13px;
+    }
+    .sub_title {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 162px;
+  }
+}
