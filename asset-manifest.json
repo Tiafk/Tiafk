@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/Tiafk/static/css/main.d93c486a.css",
-    "main.js": "/Tiafk/static/js/main.6e6d5a3e.js",
+    "main.css": "/Tiafk/static/css/main.30ce4afd.css",
+    "main.js": "/Tiafk/static/js/main.79ad4734.js",
     "static/js/787.28cb0dcd.chunk.js": "/Tiafk/static/js/787.28cb0dcd.chunk.js",
     "static/media/Homepage.svg": "/Tiafk/static/media/Homepage.9d9c8b5b56ab0e85263a.svg",
+    "static/media/Warplay.PNG": "/Tiafk/static/media/Warplay.ebbca838137da10a723a.PNG",
+    "static/media/ojjo.PNG": "/Tiafk/static/media/ojjo.19ef31d742c403d03531.PNG",
+    "static/media/Wealthfront.PNG": "/Tiafk/static/media/Wealthfront.b8910a0bd77a249de831.PNG",
     "static/media/Inter-Bold.ttf": "/Tiafk/static/media/Inter-Bold.0404bf9fe5d3e31db4c3.ttf",
     "static/media/Inter-ExtraLight.ttf": "/Tiafk/static/media/Inter-ExtraLight.88e59b01bea6c0c4ada2.ttf",
     "static/media/Inter-Regular.ttf": "/Tiafk/static/media/Inter-Regular.a7e2fa480e33df4b6e22.ttf",
@@ -12,6 +15,7 @@
     "static/media/Inter-Light.woff": "/Tiafk/static/media/Inter-Light.2068cbe79cc4d82cb514.woff",
     "static/media/Inter-ExtraLight.woff": "/Tiafk/static/media/Inter-ExtraLight.a08e27f3763b1d545bb3.woff",
     "static/media/Inter-Regular.woff": "/Tiafk/static/media/Inter-Regular.b8e64923541f0fe992b5.woff",
+    "static/media/Skilla.PNG": "/Tiafk/static/media/Skilla.2693ce64f6f7da703feb.PNG",
     "static/media/God.png": "/Tiafk/static/media/God.649d99a09ff099749aab.png",
     "static/media/Inter-Bold.woff2": "/Tiafk/static/media/Inter-Bold.f80691b9825276a95f24.woff2",
     "static/media/Inter-Light.woff2": "/Tiafk/static/media/Inter-Light.3245cf550ccf756a2103.woff2",
@@ -19,12 +23,12 @@
     "static/media/Inter-Regular.woff2": "/Tiafk/static/media/Inter-Regular.ceb432ee7930ef156dca.woff2",
     "static/media/Logo.svg": "/Tiafk/static/media/Logo.bdf60ce7bd3c61c1f87f1c31a3c6f9db.svg",
     "index.html": "/Tiafk/index.html",
-    "main.d93c486a.css.map": "/Tiafk/static/css/main.d93c486a.css.map",
-    "main.6e6d5a3e.js.map": "/Tiafk/static/js/main.6e6d5a3e.js.map",
+    "main.30ce4afd.css.map": "/Tiafk/static/css/main.30ce4afd.css.map",
+    "main.79ad4734.js.map": "/Tiafk/static/js/main.79ad4734.js.map",
     "787.28cb0dcd.chunk.js.map": "/Tiafk/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d93c486a.css",
-    "static/js/main.6e6d5a3e.js"
+    "static/css/main.30ce4afd.css",
+    "static/js/main.79ad4734.js"
   ]
 }
