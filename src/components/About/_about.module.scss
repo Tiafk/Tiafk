@@ -1,0 +1,41 @@
+.about {
+  display: flex;
+  width: 100%;
+  max-width: 1274px;
+  height: 50vw;
+  justify-content: center;
+  align-self: center;
+  font-family: 'Inter';
+  flex-direction: column;
+
+  &__title {
+    font-size: 45px;
+    color: var(--text);
+    font-weight: 300;
+  }
+
+  &__container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+    .text {
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      width: 100%;
+      max-width: 722px;
+      font-size: 20px;
+      font-weight: 400;
+      color: var(--text);
+    }
+
+    p {
+      margin-bottom: 11px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

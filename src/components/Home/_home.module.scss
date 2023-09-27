@@ -1,0 +1,57 @@
+.home {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Inter';
+  width: 100%;
+  height: 50vw;
+  max-height: 1080px;
+  background-image: url(../../img/Homepage.svg);
+  background-repeat: no-repeat;
+  padding-bottom: 120px;
+  .wrapper_text {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 72px 55px;
+    .container {
+      display: flex;
+      flex-direction: column;
+      .light_text {
+        font-size: 45px;
+        letter-spacing: 2.25px;
+        color: var(--hometext);
+      }
+      .text {
+        font-size: 75px;
+        letter-spacing: 7.5px;
+        color: var(--text);
+      }
+    }
+    
+    .links {
+      display: flex;
+      width: 100%;
+      max-width: 209px;
+      justify-content: space-between;
+      margin-top: 26px;
+      a{
+        display: flex;
+        svg {
+          max-width: 44px;
+          height: 44px;
+          path {
+            fill: #9C9C9C;
+            transition: .3s ease;
+          }
+          &:hover {
+            path {
+              fill: #fff;
+              transition: .3s ease;
+            }
+          }
+        }
+      }
+    }
+  }
+}
