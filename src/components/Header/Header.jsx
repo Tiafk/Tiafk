@@ -5,10 +5,10 @@ import Nav from "./NavLink/Nav";
 
 function Home() {
   const [nav] = useState([
-    { text: "Главная"},
-    { text: "Обо мне"},
-    { text: "Мои проекты"},
-    { text: "Контакты"},
+    { text: "Главная", link:'#home'},
+    { text: "Обо мне",link:'#about'},
+    { text: "Мои проекты",link:'#worck'},
+    { text: "Контакты",link:'#contact'},
   ]);
 
   return (

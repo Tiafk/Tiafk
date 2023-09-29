@@ -3,7 +3,7 @@ import God from '../../img/God.png';
 
 function About() {
   return (
-    <div className={styles.about}>
+    <div className={styles.about} id='about'>
       <p className={styles.about__title}>Обо мне</p>
       <div className={styles.about__container}>
         <div className={styles.text}>

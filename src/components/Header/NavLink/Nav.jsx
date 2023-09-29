@@ -1,7 +1,7 @@
 function Nav({nav}) {
   return (
     <li>
-      <p>{nav.text}</p>
+      <a href={nav.link}>{nav.text}</a>
       <span></span>
     </li>
   )

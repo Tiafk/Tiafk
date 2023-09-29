@@ -5,7 +5,7 @@ import HomeText from './HomeText/HomeText';
 
 function Home() {
   return (
-    <div className={styles.home}>
+    <div className={styles.home} id='home'>
       <Header />
       <HomeText />
     </div>
