@@ -5,6 +5,7 @@
   width: 100%;
   max-width: 1806px;
   align-self: center;
+  padding-top: 60px;
 
   &__top {
     display: flex;
@@ -43,7 +44,6 @@
       .picture {
         cursor: pointer;
         max-width: 994px;
-        // max-height: 500px;
         border-radius: 45px;
 
         img {
