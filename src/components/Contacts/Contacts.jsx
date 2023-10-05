@@ -29,7 +29,7 @@ function Contacts() {
           </svg>
         </a>
       </div>
-      <p className={styles.contacts__bottom_text}>Designed & Built by Ruskan Akchurin ©2023</p>
+      <p className={styles.contacts__bottom_text}>Designed & Built by Ruslan Akchurin ©2023</p>
     </div>
   );
 }

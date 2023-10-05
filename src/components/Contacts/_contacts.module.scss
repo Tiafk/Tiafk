@@ -55,6 +55,63 @@
 
   &__bottom_text {
     position: absolute;
+    font-size: 16px;
     bottom: 11px;
+  }
+}
+
+@media (max-width:1180px) {
+  .contacts {
+
+    &__text {
+
+      .title {
+        font-size: calc(23px + (22 + 22 * 0.7) * ((100vw - 320px) / 1180));
+      }
+
+      .subtitle {
+        display: flex;
+        align-self: center;
+        font-size: calc(16px + (16 + 16 * 0.7) * ((100vw - 320px) / 1180));
+      }
+    }
+
+    &__bottom_text {
+      font-size: calc(9px + (7 + 7 * 0.7) * ((100vw - 320px) / 1180));
+    }
+  }
+}
+
+@media (max-width:440px) {
+  .contacts {
+
+    &__text {
+
+      .subtitle {
+        max-width: 90%;
+      }
+    }
+
+    &__pichers {
+      max-width: 35%;
+
+      a {
+        max-width: 35px;
+
+        svg {
+          width: 100%;
+          height: 100%;
+          fill: #9C9C9C;
+          transition: .3s ease;
+
+          &:hover {
+            path {
+              transition: .2s ease;
+              fill: #fff;
+            }
+          }
+        }
+      }
+    }
   }
 }

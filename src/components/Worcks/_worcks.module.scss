@@ -1,4 +1,5 @@
 .worcks {
+  position: relative;
   display: flex;
   font-family: Inter;
   flex-direction: column;
@@ -40,11 +41,13 @@
       display: flex;
       max-width: 100%;
       justify-content: space-between;
+      padding: 0 5px;
 
       .picture {
         cursor: pointer;
         max-width: 994px;
         border-radius: 45px;
+        padding: 0 10px;
 
         img {
           width: 100%;
@@ -57,7 +60,7 @@
         font-size: 24px;
         font-weight: 400;
         color: var(--text);
-        margin: 73px auto 0 auto;
+        margin: 4.065% auto 0 auto;
 
         .stack_wrapper {
           display: flex;
@@ -68,6 +71,106 @@
             margin-left: 18px;
           }
         }
+      }
+      .text_mobile {
+        display: none;
+        width: 100%;
+        max-width: 625px;          
+        font-size: calc(18px + (6 + 6 * 0.7) * ((100vw - 1180px) / 1660));
+        font-weight: 400;
+        color: var(--text);
+        margin-top: 30px;
+        .stack_wrapper {
+          display: flex;
+          margin-top: 28px;
+
+          .stack {
+            font-weight: 700;
+            margin-left: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width:1660px) {
+  .worcks {
+    &__top {
+  
+      .title {
+        font-size: calc(26px + (19 + 19 * 0.7) * ((100vw - 320px) / 1660));
+      }
+  
+      .sub_title {
+        font-size: calc(14px + (2 + 2 * 0.7) * ((100vw - 320px) / 1660));
+      }
+    }
+    &__container  {
+      .worck {
+        .text_container {
+          padding: 0 20px;
+          font-size: calc(18px + (6 + 6 * 0.7) * ((100vw - 1180px) / 1660));
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:1180px) {
+  .worcks {
+
+    &__container {
+      .worck {
+  
+        .picture {
+          max-width: 528px;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:680px) {
+  .worcks {
+
+    &__container {
+      .worck {
+        display: flex;
+        flex-direction: column;
+        max-width: 528px;
+        align-items: center;
+        align-self: center;
+
+        .picture {
+          padding: 0;
+          img {
+            width: 100%;
+          }
+        }
+        .text_container {
+          display: none;
+        }
+
+        .text_mobile {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:520px) {
+  .worcks {
+    &__top {
+  
+      .sub_title {
+        text-align: center;
+        padding: 0 20px;
       }
     }
   }

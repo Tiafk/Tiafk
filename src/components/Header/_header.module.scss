@@ -1,12 +1,11 @@
 .header {
   position: fixed;
   display: flex;
-  width: 100%;
-  max-width: 1810px;
+  width: 94.3%;
   max-height: 77px;
   justify-content: space-between;
   align-items: center;
-  padding: 13px 55px 0 55px;
+  margin-top: 13px;
   z-index: 100000;
 
   &__logo {
@@ -20,13 +19,14 @@
     justify-content: space-between;
     color: var(--text);
     li {
+      cursor: pointer;
       display: flex;
       flex-direction: column;
-      cursor: pointer;
       list-style-type: none;
       a {
         color: var(--text);
         text-decoration: none;
+        font-size: 16px;
       }
       span {
         opacity: 0;
@@ -44,6 +44,14 @@
           transition: .4s ease;
         }
       }
+    }
+  }
+}
+
+@media (max-width: 590px) {
+  .header {
+    &__navigation {
+      display: none;
     }
   }
 }
