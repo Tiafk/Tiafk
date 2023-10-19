@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Tiafk/static/css/main.c044b9c6.css",
-    "main.js": "/Tiafk/static/js/main.253cc486.js",
+    "main.js": "/Tiafk/static/js/main.26eb74ee.js",
     "static/js/787.28cb0dcd.chunk.js": "/Tiafk/static/js/787.28cb0dcd.chunk.js",
     "static/media/Homepage.svg": "/Tiafk/static/media/Homepage.9d9c8b5b56ab0e85263a.svg",
     "static/media/Inter-Bold.ttf": "/Tiafk/static/media/Inter-Bold.0404bf9fe5d3e31db4c3.ttf",
@@ -24,11 +24,11 @@
     "static/media/Logo.svg": "/Tiafk/static/media/Logo.bdf60ce7bd3c61c1f87f1c31a3c6f9db.svg",
     "index.html": "/Tiafk/index.html",
     "main.c044b9c6.css.map": "/Tiafk/static/css/main.c044b9c6.css.map",
-    "main.253cc486.js.map": "/Tiafk/static/js/main.253cc486.js.map",
+    "main.26eb74ee.js.map": "/Tiafk/static/js/main.26eb74ee.js.map",
     "787.28cb0dcd.chunk.js.map": "/Tiafk/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c044b9c6.css",
-    "static/js/main.253cc486.js"
+    "static/js/main.26eb74ee.js"
   ]
 }
