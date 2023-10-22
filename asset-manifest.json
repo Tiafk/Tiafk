@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Tiafk/static/css/main.c044b9c6.css",
-    "main.js": "/Tiafk/static/js/main.26eb74ee.js",
+    "main.css": "/Tiafk/static/css/main.4f328ebb.css",
+    "main.js": "/Tiafk/static/js/main.41c450bc.js",
     "static/js/787.28cb0dcd.chunk.js": "/Tiafk/static/js/787.28cb0dcd.chunk.js",
     "static/media/Homepage.svg": "/Tiafk/static/media/Homepage.9d9c8b5b56ab0e85263a.svg",
     "static/media/Inter-Bold.ttf": "/Tiafk/static/media/Inter-Bold.0404bf9fe5d3e31db4c3.ttf",
@@ -23,12 +23,12 @@
     "static/media/Skilla.png": "/Tiafk/static/media/Skilla.a58960ce4e725c7f6177.png",
     "static/media/Logo.svg": "/Tiafk/static/media/Logo.bdf60ce7bd3c61c1f87f1c31a3c6f9db.svg",
     "index.html": "/Tiafk/index.html",
-    "main.c044b9c6.css.map": "/Tiafk/static/css/main.c044b9c6.css.map",
-    "main.26eb74ee.js.map": "/Tiafk/static/js/main.26eb74ee.js.map",
+    "main.4f328ebb.css.map": "/Tiafk/static/css/main.4f328ebb.css.map",
+    "main.41c450bc.js.map": "/Tiafk/static/js/main.41c450bc.js.map",
     "787.28cb0dcd.chunk.js.map": "/Tiafk/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c044b9c6.css",
-    "static/js/main.26eb74ee.js"
+    "static/css/main.4f328ebb.css",
+    "static/js/main.41c450bc.js"
   ]
 }
